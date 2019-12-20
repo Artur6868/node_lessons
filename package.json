@@ -1,5 +1,5 @@
 {
-  "name": "node",
+  "name": "dom",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,6 +7,9 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Artur Petrosyan",
-  "license": "ISC"
+  "author": "Artur",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
 }
